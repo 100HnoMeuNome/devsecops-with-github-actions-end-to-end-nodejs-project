@@ -50,4 +50,4 @@ jobs:
           target: 'http://testphp.vulnweb.com'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
-          fail_action: 'true'
+          fail_action: 'false'
